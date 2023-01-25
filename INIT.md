@@ -17,7 +17,7 @@ $ docker exec -it app sh
 $ yarn add axios msw swr
 ```
 
-## React-testing-library
+## React-testing-library & jest
 1. install
 ```sh
 $ docker-compose up -d
@@ -71,15 +71,6 @@ $ touch .babelrc
     "jest": "^29.3.1",
     "jest-css-modules": "^2.1.0",
     "jest-environment-jsdom": "^29.3.1"
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "<rootDir>/.next/",
-      "<rootDir>/node_modules/"
-    ],
-    "moduleNameMapper": {
-      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
-    }
   }
 }
 ```
